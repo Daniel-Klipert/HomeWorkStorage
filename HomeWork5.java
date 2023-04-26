@@ -80,7 +80,7 @@ public class HomeWork5 {
             }
             if (health < 0) {
                 health = 0;
-                throw new PersonDead("");
+                throw new PersonDead("Person died");
             }
 
         }
