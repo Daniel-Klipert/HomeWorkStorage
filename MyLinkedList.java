@@ -1,8 +1,3 @@
-import com.sun.jdi.Value;
-
-import java.security.PublicKey;
-import java.util.LinkedList;
-
 public class MyLinkedList<T> {
 
     public MyLinkedList() {size = 0; head = null;}
