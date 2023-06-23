@@ -11,9 +11,9 @@ public class MyLinkedList<T> {
         return node;
     }
     public void printMyLinkedList() {
-        System.out.print("[");
-        for (int i = 0; i < size; i++) {System.out.print(getNode(i).value + ", ");}
-        System.out.println("]");
+        String str = "[";
+        for (int i = 0; i < size - 1; i++) {str = str + getNode(i).value.toString() + ", ";}
+        System.out.println(str + getNode(size - 1).value.toString() +"]");
     }
     private class Node {
 
